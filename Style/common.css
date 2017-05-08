@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Source+Code+Pro:300');
+body{
+	
+	margin: 0;
+	font-family: "Open Sans Condensed";
+	color: white;
+	background-color: black;
+}
+nav.header{
+	height: 40px;
+	margin: 0;
+	background-color: #4a148c;
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+button {
+    background-color: #4a148c; /* Green */
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+	height: 30px;
+	/*width: 50px;*/
+	float: left;
+	margin: 5px;
+	border-radius: 4px;
+	-webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+button:hover{
+	/*ackground-color: #b9c3ca;*/
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+	cursor: pointer;
+}
+.logo{
+	float: left;
+	margin: 5px;
+	margin-left: 10px;
+	width: 30px;
+	height: 30px;
+}
+.logo:hover{
+	cursor: pointer;
+}
+.dropcontent{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropbutton:hover .dropcontent{
+    display: block;
+}
+.dropcontent a{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+	-webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+.dropcontent a:hover{
+	/*background-color: #e8e8e8;*/
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
