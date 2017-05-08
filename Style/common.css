@@ -6,13 +6,11 @@ body{
 	color: white;
 	background-color: black;
 }
-nav.header{
+nav{
 	height: 40px;
 	margin: 0;
 	background-color: #4a148c;
-	position: fixed;
-	top: 0;
-	left: 0;
+	
 }
 button {
     background-color: #4a148c; /* Green */
