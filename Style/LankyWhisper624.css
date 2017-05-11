@@ -3,4 +3,9 @@ p {
 }
 body {
     font: "Roboto", sans-serif;
+    background-color: #7953d2;
+}
+nav {
+    background-color: #000070;
+    color: #ffffff;
 }
