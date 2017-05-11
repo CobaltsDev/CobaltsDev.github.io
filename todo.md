@@ -5,6 +5,7 @@
    - Get every about page running normaly and customized to owners liking 
    - (This is mainly for Jacob and Josh) Make a syle for a contact information table  
    - Make a projects page  
+   - Make website Material Design compliant  
    - ~~Add Marshal to the website~~
    
    
