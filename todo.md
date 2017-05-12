@@ -11,4 +11,4 @@
    
 ### Please everyone regularly check the projects on the main page of CobaltsDev and this repo 
  
-### JACOB AND JOSH PLEASE LOOK AT THIS LINK http://stackoverflow.com/questions/31954089/html-css-navigation-bar-on-multiple-pages
+### ~~JACOB AND JOSH PLEASE LOOK AT THIS LINK [http://stackoverflow.com/questions/31954089/html-css-navigation-bar-on-multiple-pages](http://stackoverflow.com/questions/31954089/html-css-navigation-bar-on-multiple-pages)~~
