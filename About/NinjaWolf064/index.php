@@ -42,8 +42,13 @@
                 			<a href='../../../About/YaaniMaani'>YaaniMaani</a>
 					<a href='../../../About/TVHead'>TV Head</a>
          			</div>
+		</button>
+				</nav>
         <br><br>
 		<p>I specialize in web development (HTML, CSS, PHP, and <a href='http://jquery.org'>jQuery</a>/JavaScript), but I also know <a href='http://python.org'>Python</a>, Java, and <a href='http://processingjs.org/'>ProcessingJS</a>.</p>
         <a href='mailto:joshua@cobalts.net'>Contact me</a>
+		<?php
+echo "<p>Today is " . date(l) . date(d m Y) . "</p>
+		>
   </body>
 </html>
