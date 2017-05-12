@@ -12,7 +12,8 @@ nav{
 	background-color: #4908a4;
 }
 button {
-    // background-color: #e86af0; /* light purple */
+    /* background-color: #e86af0; /* light purple */
+	background-color: #4908a4;
     border: none;
     color: #ffffff;
     text-align: center;
