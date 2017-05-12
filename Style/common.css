@@ -4,15 +4,15 @@ body{
 	margin: 0;
 	font-family: "Roboto";
 	color: #ffffff;
-	background-color: #4527a0;
+	background-color: #493267;
 }
 nav{
 	height: 40px;
 	margin: 0;
-	background-color: #000070;
+	background-color: #9e379f;
 }
 button {
-    background-color: #7953d2; /* light purple */
+    background-color: #e86af0; /* light purple */
     border: none;
     color: #ffffff;
     text-align: center;
@@ -45,7 +45,7 @@ button:hover{
 .dropcontent{
     display: none;
     position: absolute;
-    background-color: #000070;
+    background-color: #7bb3ff;
     min-width: 160px;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
     z-index: 1;
