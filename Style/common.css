@@ -4,12 +4,12 @@ body{
 	margin: 0;
 	font-family: "Roboto";
 	color: #ffffff;
-	background-color: #493267;
+	background-color: #4968a4;
 }
 nav{
 	height: 40px;
 	margin: 0;
-	background-color: #9e379f;
+	background-color: #4908a4;
 }
 button {
     background-color: #e86af0; /* light purple */
