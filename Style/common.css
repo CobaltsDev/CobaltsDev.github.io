@@ -4,16 +4,16 @@ body{
 	margin: 0;
 	font-family: "Roboto";
 	color: #ffffff;
-	background-color: #4968a4;
+	background-color: #03396c;
 }
 nav{
 	height: 40px;
 	margin: 0;
-	background-color: #4908a4;
+	background-color: #011f4b;
 }
 button {
     /* background-color: #e86af0; /* light purple */
-	background-color: #4908a4;
+	background-color: #011f4b;
     border: none;
     color: #ffffff;
     text-align: center;
