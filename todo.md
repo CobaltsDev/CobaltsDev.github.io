@@ -4,7 +4,7 @@
    - ~~Get everyone to make an about page (including a Cobalts Official)~~
    - ~~Implement nav as global file~~
    - Get every about page running normaly and customized to owners liking 
-   - (This is mainly for Jacob and Josh) Make a syle for a contact information table  
+   - (This is mainly for Jacob and Josh) Make a syle for a contact information table *Note to [@a-Sharp-a](https://github.com/a-Sharp-a): What do you mean by this? -[@NinjaWolf064](https://github.com/NinjaWolf064)*  
    - ~~Make a projects page~~
    - Make website Material Design compliant
    - ~~Add Marshal to the website~~
