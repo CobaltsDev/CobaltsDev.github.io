@@ -58,7 +58,7 @@ a {
 	color: #ffffff;
 	text-decoration: underline;
 }
-a:hover {
+a:hover, button a {
 	text-decoration: none;
 }
 a:active {
