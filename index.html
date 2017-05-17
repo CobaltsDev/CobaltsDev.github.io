@@ -1,23 +1,17 @@
 <!DOCTYPE html>
-<html lang='en-US'>
-	<head>
-    <meta charset='utf-8'/>
-		<title>Home - Cobalts</title>
-		<link rel="stylesheet" href="Style/common.css" type='text/css'>
-		<link rel="stylesheet" href="Style/index.css" type='text/css'>
-		<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
-    <script>
-      $(function(){
-        $("#header").load("nav.html");
-      });
-    </script>
-	</head>
-	<body>
-		<nav id="header">
-		</nav>
-    <br/><br/>
-		<h1>Welcome to the official website of Cobalts.</h1>
-		<p class="firstline">Cobalts is a Washington State based development team that makes everything from web apps and designs to system side applications and APIs.</p>
-		<p>We are comprised of 8 members (which you can learn more about on their individual pages on the navigation bar).</p>
-	</body>
+<html class="mdc-typography">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Greeting App</title>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css">
+  </head>
+  <body>
+    <h1 class="mdc-typography--display1">Hello, World!</h1>
+    <button type="button" class="mdc-button mdc-button--raised mdc-button--primary">
+      Press Me
+    </button>
+  </body>
 </html>
