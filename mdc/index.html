@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html class="mdc-typography">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Greeting App</title>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css"/>
+    <style>
+      :root {
+        --mdc-theme-primary: #011f4b;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1 class="mdc-typography--display1">Tell us about yourself!</h1>
+
+      <form action="#" id="greeting-form">
+        <div>
+          <div class="mdc-form-field">
+            <div class="mdc-textfield" data-mdc-auto-init="MDCTextfield">
+              <input id="firstname" type="text" class="mdc-textfield__input">
+                <label for="firstname" class="mdc-textfield__label">
+                  First Name
+                </label>
+              </div>
+            </div>
+
+            <div class="mdc-form-field">
+              <div class="mdc-textfield" data-mdc-auto-init="MDCTextfield">
+                <input id="lastname" type="text" class="mdc-textfield__input">
+                  <label for="lastname" class="mdc-textfield__label">
+                    Last Name
+                  </label>
+                </div>
+              </div>
+            </div>
+
+            <button type="submit"
+            class="mdc-button
+                   mdc-button--raised
+                   mdc-button--primary
+                   mdc-ripple-surface"
+            data-mdc-auto-init="MDCRipple">
+              Print Greeting
+            </button>
+          </form>
+
+          <!-- The p element below is where we'll eventually output our greeting -->
+          <p class="mdc-typography--headline" id="greeting"></p>
+        </main>
+
+      <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
+    <script>window.mdc.autoInit();</script>
+  </body>
+</html>
