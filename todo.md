@@ -6,7 +6,7 @@
    - Get every about page running normaly and customized to owners liking 
    - (This is mainly for Jacob and Josh) Make a syle for a contact information table *Note to whoever wrote this: What do you mean by this? -[@NinjaWolf064](https://github.com/NinjaWolf064)*  
    - ~~Make a projects page~~
-   - ~~Make website Material Design compliant~~ (http://material.io)
+   - Make website Material Design compliant (http://material.io)
    - ~~Add Marshal to the website~~
    - ~~Fix all of the [validation errors](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcobalts.net%2F)~~
    - Add the icon to all of the pages. (This may involve resizing and converting the png)
