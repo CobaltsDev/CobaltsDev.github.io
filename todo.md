@@ -11,6 +11,7 @@
    - ~~Fix all of the [validation errors](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcobalts.net%2F)~~
    - Add the icon to all of the pages. (This may involve resizing and converting the png)
    - Use material components (https://material.io/components/) (partially completed, see [md-components branch](https://github.com/CobaltsDev/CobaltsDev.github.io/tree/md-components).)
+   - Add the meta tags to every page
 ### Please everyone regularly check the projects on the main page of CobaltsDev and this repo 
  
 ### ~~JACOB AND JOSH PLEASE LOOK AT THIS LINK [http://stackoverflow.com/questions/31954089/html-css-navigation-bar-on-multiple-pages](http://stackoverflow.com/questions/31954089/html-css-navigation-bar-on-multiple-pages)~~
