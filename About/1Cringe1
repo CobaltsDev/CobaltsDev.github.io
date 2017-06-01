@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang='en-US'>
+	<head>
+		<title>About - 1Cringe1</title>
+		<link rel="stylesheet" href="../../Style/common.css" type='text/css'>
+		<link rel="stylesheet" href="../../Style/index.css" type='text/css'>
+		<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <script>
+      $(function(){
+        $("#header").load("../../../nav.html");
+      });
+    </script>
+	</head>
+	<body>
+	<nav id="header">
+	</nav>
+        <br><br><br>
+    <h1>Hi Im 1Cringe1</h1>
+		<p>I devolope mainly with C sharp but I know other languages too like java script, html and css.</p>
+        //<!-- Put all of your content here -->
+  </body>
+</html>
