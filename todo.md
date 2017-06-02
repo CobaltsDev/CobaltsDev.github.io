@@ -11,7 +11,7 @@
    7. Make website Material Design compliant (http://material.io)
    8. ~~Add Marshal to the website~~
    9. ~~Fix all of the [validation errors](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcobalts.net%2F)~~
-   10. Add the icon to all of the pages. (This may involve resizing and converting the png)
+   10. ~~Add the icon to all of the pages. (This may involve resizing and converting the png)~~
    11. Use material components (https://material.io/components/) (partially completed, see [md-components branch](https://github.com/CobaltsDev/CobaltsDev.github.io/tree/md-components).)
    12. Add the meta tags to every page
    13. Add the other projects to the navbar under Projects
