@@ -6,7 +6,7 @@
    2. ~~Implement nav as global file~~
    3. Get every about page running normaly and customized to owners liking  
    4. ~~Fix [issue #2](https://github.com/CobaltsDev/CobaltsDev.github.io/issues/2) (the navbar bug)~~
-   5. (This is mainly for Jacob and Josh) Make a syle for a contact information table *Note to whoever wrote this: What do you mean by this? -[@NinjaWolf064](https://github.com/NinjaWolf064)*  
+   5. ~~NEVERMIND~~
    6. ~~Make a projects page~~
    7. Make website Material Design compliant (http://material.io)
    8. ~~Add Marshal to the website~~
