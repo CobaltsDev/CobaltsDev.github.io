@@ -16,6 +16,6 @@ p{
 }
 footer {
 	position: fixed;
-    top: 100%;
+    bottom: 100%;
     left: 0;
 }
