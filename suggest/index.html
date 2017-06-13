@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang='en-US'>
 	<head>
+		<meta charset="UTF-8">
 		<meta charset='utf-8'/>
     		<meta name="keywords" content="Development, Buisness, Programming, Start-ups, Software">
 		<meta name="description" content="Cobalts is a Washington State based development team that makes everything from web apps and designs to system side applications and APIs.">
@@ -13,7 +14,11 @@
 		<link rel="stylesheet" href="../../Style/common.css" type='text/css'>
 		<link rel="stylesheet" href="../../Style/index.css" type='text/css'>
 		<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
-    <script>
+    <script language="JavaScript">
+	    function showInput() {
+        document.getElementById('display').innerHTML = 
+                    document.getElementById("user_input").value;
+    }
       $(function(){
         $("#header").load("../../../nav.html");
       });
