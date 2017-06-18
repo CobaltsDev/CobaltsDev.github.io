@@ -26,8 +26,14 @@
             var message = document.getElementById("message").value;
             display_message.innerHTML= message;
         }
-		</script>
+			    <form name="form1" action="next.html" method="get">
+name:<input type ="text" id="name" name="n">
+<input type="submit" value="next" >
+<button type="button" id="print" onClick="testJS()"> Print </button>
+	</body>
+
 	<body>
+
 		<form>
 			Please suggest: <input type="text" id = "message">
 <input type="button" onclick="showMessage()" value="submit" />
