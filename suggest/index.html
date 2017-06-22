@@ -13,34 +13,24 @@
 		<link rel="stylesheet" href="../../Style/common.css" type='text/css'>
 		<link rel="stylesheet" href="../../Style/index.css" type='text/css'>
 		<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
-	</head>
-	<body>
-	<nav id="header">
-	</nav>
-        <br><br><br>
     <h1>Suggest</h1>
-		<p>Please help me by suggesting projects that you think I should create.</p>
-	</body>
-		    <script type="text/JavaScript">
-	    function showMessage(){
-            var message = document.getElementById("message").value;
-            display_message.innerHTML= message;
-        }
-			    <form name="form1" action="next.html" method="get">
-name:<input type ="text" id="name" name="n">
-<input type="submit" value="next" >
-<button type="button" id="print" onClick="testJS()"> Print </button>
-	</script>
-	</body>
-
-	<body>
-
-		<form>
-			Please suggest: <input type="text" id = "message">
-<input type="button" onclick="showMessage()" value="submit" />
-			<input type="reset">
-</form>
-		<p> Thank you your suggestion is: <span id = "display_message"></span> </p>
-
-  </body>
-</html>
+  		<p>Please help me by suggesting projects that you think I should create.</p>
+  	</body>
+ 		<head>
+  		    <script type="text/JavaScript">
+  	    function showMessage(){
+              var message = document.getElementById("message").value;
+              display_message.innerHTML= message;
+          }
+  		</script>
+ 	</head>
+  	<body>
+  		<form>
+  			Please suggest: <input type="text" id = "message" value="type your suggestion here">
+  <input type="button" onclick="showMessage()" value="submit" />
+  			<input type="reset">
+  </form>
+ 		<p> Thank you your suggestion is: <span id = "display_message"></span> </p>
+      </script>
+  
+    </body>
