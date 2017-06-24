@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html class="mdc-typography">
+  <head>
+    <link rel="shortcut icon" href="https://www.cobalts.net/Icons/Cobalts32x32.ico" type="image/x-icon"/>
+		<link rel="icon" href="https://www.cobalts.net/Icons/Cobalts32x32.ico" type="image/x-icon"/>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Cobalts Development</title>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css"/>
+    <style>
+      :root {
+        --mdc-theme-primary: #311b92;
+      }
+    </style>
+  </head>
+  <body>
+	<nav class="mdc-permanent-drawer mdc-typography">
+		<div class="mdc-permanent-drawer__toolbar-spacer"></div>
+		<div class="mdc-permanent-drawer__content">
+			<nav id="icon-with-text-demo" class="mdc-list">
+				<a class="mdc-list-item mdc-permanent-drawer--selected" href="#">
+					<i class="material-icons mdc-list-item__start-detail" aria-hidden="true">inbox</i>Inbox
+				</a>
+				<a class="mdc-list-item" href="#">
+					<i class="material-icons mdc-list-item__start-detail" aria-hidden="true">star</i>Star
+				</a>
+			</nav>
+		</div>
+	</nav>
+	<div id="body">
+		<button class="mdc-fab material-icons" aria-label="Favorite">
+			<span class="mdc-fab__icon>
+				favorite
+			</span>
+		</button>
+	</div>
+  </body>
