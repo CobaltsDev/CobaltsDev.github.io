@@ -1,11 +1,11 @@
 <?php
 
 $name = $_POST['name'];
-$submit = $_POST['submit'];
+$Suggest = $_POST['Suggest'];
 
 $to = "benicio.alexander.1@gmail.com";
 $subject = "Suggestion";
-$body = "$submit";
+$body = "$Suggest";
 
 mail ($to,$subject,$body);
 
