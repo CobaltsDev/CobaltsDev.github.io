@@ -9,6 +9,6 @@ $body = "$submit";
 
 mail ($to,$subject,$body);
 
-echo "message sent! <href="https://www.cobalts.net/suggest/">Click here to give anouther suggestion</a>"
+echo "message sent! <a href="index.html">Click here</a> to give anouther suggestion."
 
 ?>
