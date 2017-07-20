@@ -26,9 +26,10 @@
   			Please suggest: <input type="text" id = "message" placeholder="type your suggestion here">
   <input type="button" onclick="showMessage()" value="submit">
   			<input type="reset">
-			<form action="https://www.cobalts.net/suggest/" method="post" >
-				<input type="" name="recipient" value="benicio.alexander.1@gmail.com" / >
-				<input type="text" name="subject" value="hi" / >
+			<form action="send.php" method="POST">
+				Please suggest:<br><input type="text" name="name"><br>
+				<input type="submit" name="submit" value="Submit">
+				</form>
   </form>
  		<p>Thank you your responce is: <span id = "display_message"></span></p>
       </script>
