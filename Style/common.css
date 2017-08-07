@@ -90,6 +90,6 @@ footer {
 }
 @media screen and (max-height: 500px){
 	footer{
-		position: initial;
+		position: static;
 	}
 }
