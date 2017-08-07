@@ -91,5 +91,7 @@ footer {
 @media screen and (max-height: 500px){
 	footer{
 		position: static;
+		bottom: inherit;
+		left: inherit;
 	}
 }
