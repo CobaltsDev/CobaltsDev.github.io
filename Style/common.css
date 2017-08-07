@@ -88,3 +88,8 @@ footer {
 	bottom: 0;
 	left: 0;
 }
+@media screen and (max-height: 500px){
+	footer{
+		position: initial;
+	}
+}
