@@ -6,6 +6,9 @@ body{
 	color: #ffffff;
 	background-color: #03396c;
 }
+#body{
+	overflow: auto
+}
 nav{
 	height: 40px;
 	margin: 0;
