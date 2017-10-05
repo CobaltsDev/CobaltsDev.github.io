@@ -3,6 +3,7 @@
    #### *These are in no particular order*
        
    1. ~~Get everyone to make an about page (including a Cobalts Official)~~
+      a. Make sure that if you want anything to just relate to you, put it in your own page. (1cringe1)
    2. ~~Implement nav as global file~~
    3. Get every about page running normaly and customized to owners liking  
    4. ~~Fix [issue #2](https://github.com/CobaltsDev/CobaltsDev.github.io/issues/2) (the navbar bug)~~
