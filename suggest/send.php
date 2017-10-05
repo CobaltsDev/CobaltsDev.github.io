@@ -3,7 +3,7 @@
 $name = $_POST['name'];
 $Suggest = $_POST['Suggest'];
 
-$to = "benicio.alexander.1@gmail.com";
+$to = "dev@cobalts.net";
 $subject = "Suggestion";
 $body = "$Suggest";
 
