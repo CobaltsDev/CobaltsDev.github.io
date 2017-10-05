@@ -3,7 +3,8 @@
   <head>
     <link rel="shortcut icon" href="https://www.cobalts.net/Icons/Cobalts32x32.ico" type="image/x-icon"/>
 	<link rel="icon" href="https://www.cobalts.net/Icons/Cobalts32x32.ico" type="image/x-icon"/> <!-- company icons -->
-	<link href="https://fonts.googleapis.com/icon?family=Material+icons" rel="stylesheet"> <!-- Material icons -->
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"> <!-- Material icons -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <title>Cobalts</title>
@@ -13,6 +14,7 @@
     <style>
       :root {
         --mdc-theme-primary: #311b92;
+		--mdc-theme-accent: #ff6d00
       }
 	  // set default color to be purple
 	  .app-fab--absolute.app-fab--absolute {
@@ -27,19 +29,29 @@
 		}
 	  }
     </style>
+	<script>
+	let menu = new mdc.menu.MDCSimpleMenu(document.querySelector('.mdc-simple-menu'));
+	  var menuEl = document.querySelector('projectMenu');
+      var menu = new mdc.menu.MDCSimpleMenu(menuEl);
+      var toggle = document.querySelector('.toggle');
+      toggle.addEventListener('click', function() {
+        menu.open = !menu.open;
+      });
+	</script>
   </head>
-  <body>
-	<header class="mdc-toolbar">
-		<div class="mdc-toolbar__row">
-			<section class="mdc-toolbar__section mdc-toolbar__section--align-start">
-				<a href="#" class="material-icons mdc-toolbar__icon--menu">menu</a>
-				<span class="mdc-toolbar__title">Title</span>
-			</section>
-	</div>
-  <div class="mdc-toolbar__row">
-    <section class="mdc-toolbar__section mdc-toolbar__section--align-start">
-		<a href="#" class="material-icons mdc-toolbar__icon--menu">menu</a>
-	</section>
-  </div>
-</header>
+  <body> <!--begin nav.html, will be edited out soon-->
+  <button class="mdc-button mdc-button--primary projectsToggle">
+  <i class="material-icons">build</i>Projects
+</button>
+	<div class="mdc-simple-menu" tabindex="-1" id="projectMenu">
+  <ul class="mdc-simple-menu__items mdc-list" role="menu" aria-hidden="true">
+    <li class="mdc-list-item" role="menuitem" tabindex="0">
+      A Menu Item
+    </li>
+    <li class="mdc-list-item" role="menuitem" tabindex="0">
+      Another Menu Item
+    </li>
+  </ul>
+</div>
+
   </body>
