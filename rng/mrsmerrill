@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="utf-8">
+        <title>Random Name Picker</title>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet">
+        <link
+      rel="stylesheet"
+      href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css"/> <!-- get md components -->
+    </head>
+    <style>
+        body{
+            font-family:"Open Sans";
+        }
+        :root {
+            --mdc-theme-primary: #311b92;
+		    --mdc-theme-accent: #ff6d00;
+        }
+    </style>
+    <body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+        <button id="button" class="mdc-button mdc-button--raised">Random Name <i class="material-icons mdc-button__icon">person_add</i></button>
+        <div id="output"><p><br></p></div>
+        <span>License: <a href = "http://www.gnu.org/licenses/gpl-3.0.txt" rel="license">GNU GPL v3.0</a></span>
+        <p>This website is Material Design compliant. <a href="https://material.io">Learn More.</a></p>
+        <script>
+            var names = ["Jazmine", "Kamora", "Yandell", "Aaliyah", "Belen", "Ruby", "Alex", "Anthony", "Jose", "Marissa", "Sidney", "La\'Darius", "Mariah", "Damian", "Juan", "Santiago", "Joseph", "Nicolas", "Octavio", "Whitney", "Leslie", "Brayden", "Paulina", "Aaleayh", "Alison", "Eddy", "Victor", "Jeremy"];
+            $("#button").onClick(myFunction);
+            function myFunction() {
+                var x = Math.floor((Math.random() * 27) + 1);
+                $("#output").html("<p>" + names[x] + "</p>").slideDown();
+            }
+            mdc.ripple.MDCRipple.attachTo(document.querySelector('.mdc-button'));
+        </script>
+    </body>
+</html>
