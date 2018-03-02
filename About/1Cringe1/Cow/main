@@ -1,7 +1,7 @@
 <html lang='en-US'>
 	<head>
 		<meta charset='utf-8'/>
-		<meta name='theme-color' content='#011f4b'/>
+		<meta name='theme-color' content='#dcf1f2'/>
     		<meta name="keywords" content="Development, Buisness, Programming, Start-ups, Software">
 		<meta name="description" content="Cobalts is a Washington State based development team that makes everything from web apps and designs to system side applications and APIs.">
 		<meta name="author" content="Cobalts Web Team">
@@ -23,14 +23,5 @@
 	<nav id="header">
 	</nav>
         <br><br><br>
-    <h1>Hi Im 1Cringe1</h1>
-		<p>I devolope mainly with C# but I know other languages too like java script, html and css.</p>
-		<form action="https://github.com/1Cringe1/" class="inline">
-   		<button class="float-left submit-button">My Github</button>
-		</form>	
-		<p>I dont have a very creative mind please help me by suggesting some projects that you would like me to create.</p>
-				<form action="https://www.cobalts.net/suggest" class="inline">
-   		<button class="float-left submit-button">Please Suggest</button>
-		</form>
   </body>
 </html>
