@@ -1,0 +1,7 @@
+<DOCTYPE! HTML>
+<body>
+<h1>You are now a cow</h1>
+  body {
+    background-color: #540091
+  }
+<HTML>
