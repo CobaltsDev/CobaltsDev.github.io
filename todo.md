@@ -1,5 +1,6 @@
 # Todo  
    ## Website  
+   ##### MOVE THIS LIST TO THE ISSUES PAGE WITH THE TAG todo!
    #### *These are in no particular order*
        
    1. ~~Get everyone to make an about page (including a Cobalts Official)~~  
