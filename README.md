@@ -1,6 +1,6 @@
 # Website
 Repository for [https://www.cobalts.net](https://www.cobalts.net)  
-*Note: The website gets synced with this repository about every 5-10 mins*
-## Please check the Projects tab for and pull requests for beta site updates.
+*Note: Your browser will cache data for a few hours, so clear your cache to see updates instantly.*
+## Please work on the md branch in addition to the master branch
 
-### Please check the projects tab for this repo and the CobaltsDev GitHub org as well as todo.md regularly!
+### Please check the projects tab for this repo and the CobaltsDev GitHub org as well as [https://github.com/CobaltsDev/CobaltsDev.github.io/labels/todo](todo) regularly!
